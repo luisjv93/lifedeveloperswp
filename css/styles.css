@@ -1,0 +1,60 @@
+/* STYLES SHEETS LIFE DEVELOPERS*/
+
+/* FUENTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.global {
+    width: 100%;
+    background-color: lightgrey;
+}
+
+header {
+    width: 90%;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.logo {
+    width: 30%;
+}
+
+nav {
+    width: 70%;
+    text-align: right;
+}
+
+.logo img {
+    width: 35%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #282E68;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 2%;
+}
+
+nav a:hover {
+    color: #997D1C;
+}
+
+#carouselExampleAutoplaying {
+    height: 700px;
+    display: flex;
+}
+
+.container {
+    margin-top: 3%;
+}
+
